@@ -1,8 +1,10 @@
 
 # Hello, world
 
-> 正如标题所示，这是本人于本站的第一篇博客。
-> 接下来会测试一些markdown相关显示效果。
+> 这是一个markdown的学习样例，以及我们可以测试其在GitHub上的显示。\
+> 详细内容见下。
+
+## 这些是标题h2至h6
 
 ## h2
 
@@ -193,7 +195,24 @@ But in one document, the prefixes should be the same.
 
 ## Links
 
+The following markdown code link works well on `Visual Studio Code` as well as on `Google Chrome`, but disabled on `GitHub`.\
+
+```markdown
 [click me to the top](#Hello,-world)
+```
+
+The reason is that the `GitHub` web page changes the `,` to `-` but the extentions on `Visual Studio Code` and `Google Chrome` do not.\
+The correct usage is:
+
+```markdown
+[click me to the top](#Hello-world)
+```
+
+The following link is the instance.
+
+[(works on github)click me to the top](#Hello-world)
+
+[(works on vscode and chrome)click me to the top](#Hello,-world)
 
 ## [click me to the bottom](#bottom)
 
